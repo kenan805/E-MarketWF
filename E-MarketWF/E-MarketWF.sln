@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-MarketWF", "E-MarketWF\E-MarketWF.csproj", "{9D80DDB3-1E31-449C-A2ED-EC6355050BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D80DDB3-1E31-449C-A2ED-EC6355050BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D80DDB3-1E31-449C-A2ED-EC6355050BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D80DDB3-1E31-449C-A2ED-EC6355050BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D80DDB3-1E31-449C-A2ED-EC6355050BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2D69726-CA77-445B-8346-C235EF99297C}
+	EndGlobalSection
+EndGlobal
