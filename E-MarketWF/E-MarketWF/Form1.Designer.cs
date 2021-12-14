@@ -107,31 +107,19 @@ namespace E_MarketWF
             this.lbl_SCount_Popkek = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lbl_Popkek_Price = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lbl_all_PriceTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lbl_All_Price = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lbl_Enter_Price_ = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.tb_Enter_Price = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lbl_Enter_Price = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btn_1azn = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_5azn = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_10azn = new Guna.UI2.WinForms.Guna2Button();
             this.lbl_Residue_Price = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btn_Calculate = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_10q = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_20q = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_50q = new Guna.UI2.WinForms.Guna2Button();
             this.btn_End = new Guna.UI2.WinForms.Guna2Button();
-            this.pb_20q = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pb_50q = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.image_1azn = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pb_10q = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.image_5azn = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.image_10azn = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btn_Save = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_retry = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -169,9 +157,6 @@ namespace E_MarketWF
             ((System.ComponentModel.ISupportInitialize)(this.nud_Popkek)).BeginInit();
             this.guna2ShadowPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_20q)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_50q)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_10q)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel1
@@ -182,7 +167,7 @@ namespace E_MarketWF
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(193)))), ((int)(((byte)(50)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(193)))), ((int)(((byte)(72)))));
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(193)))), ((int)(((byte)(72)))));
-            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.BurlyWood;
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.SeaShell;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Quality = 50;
@@ -252,7 +237,7 @@ namespace E_MarketWF
             this.lbl_Market.Name = "lbl_Market";
             this.lbl_Market.Size = new System.Drawing.Size(515, 40);
             this.lbl_Market.TabIndex = 0;
-            this.lbl_Market.Text = "E-Market";
+            this.lbl_Market.Text = "Hacı Market";
             // 
             // guna2BorderlessForm1
             // 
@@ -1345,18 +1330,18 @@ namespace E_MarketWF
             this.guna2PictureBox12.TabStop = false;
             this.guna2PictureBox12.UseTransparentBackground = true;
             // 
-            // guna2HtmlLabel13
+            // lbl_all_PriceTitle
             // 
-            this.guna2HtmlLabel13.AutoSize = false;
-            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Tahoma", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(12, 715);
-            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(444, 40);
-            this.guna2HtmlLabel13.TabIndex = 37;
-            this.guna2HtmlLabel13.Text = "Ümumi ödənilməli məbləğ : \r\n";
-            this.guna2HtmlLabel13.Visible = false;
+            this.lbl_all_PriceTitle.AutoSize = false;
+            this.lbl_all_PriceTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_all_PriceTitle.Font = new System.Drawing.Font("Tahoma", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_all_PriceTitle.ForeColor = System.Drawing.Color.Black;
+            this.lbl_all_PriceTitle.Location = new System.Drawing.Point(8, 722);
+            this.lbl_all_PriceTitle.Name = "lbl_all_PriceTitle";
+            this.lbl_all_PriceTitle.Size = new System.Drawing.Size(444, 40);
+            this.lbl_all_PriceTitle.TabIndex = 37;
+            this.lbl_all_PriceTitle.Text = "Ümumi ödənilməli məbləğ : \r\n";
+            this.lbl_all_PriceTitle.Visible = false;
             // 
             // lbl_All_Price
             // 
@@ -1364,7 +1349,7 @@ namespace E_MarketWF
             this.lbl_All_Price.BackColor = System.Drawing.Color.Transparent;
             this.lbl_All_Price.Font = new System.Drawing.Font("Tahoma", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_All_Price.ForeColor = System.Drawing.Color.Black;
-            this.lbl_All_Price.Location = new System.Drawing.Point(369, 715);
+            this.lbl_All_Price.Location = new System.Drawing.Point(365, 722);
             this.lbl_All_Price.Name = "lbl_All_Price";
             this.lbl_All_Price.Size = new System.Drawing.Size(269, 40);
             this.lbl_All_Price.TabIndex = 38;
@@ -1376,12 +1361,11 @@ namespace E_MarketWF
             this.lbl_Enter_Price_.AutoSize = false;
             this.lbl_Enter_Price_.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Enter_Price_.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Enter_Price_.Location = new System.Drawing.Point(741, 77);
+            this.lbl_Enter_Price_.Location = new System.Drawing.Point(715, 76);
             this.lbl_Enter_Price_.Name = "lbl_Enter_Price_";
             this.lbl_Enter_Price_.Size = new System.Drawing.Size(310, 37);
             this.lbl_Enter_Price_.TabIndex = 39;
             this.lbl_Enter_Price_.Text = "Pulu daxil edin";
-            this.lbl_Enter_Price_.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tb_Enter_Price
             // 
@@ -1409,7 +1393,7 @@ namespace E_MarketWF
             this.tb_Enter_Price.PlaceholderText = "0,00 AZN";
             this.tb_Enter_Price.SelectedText = "";
             this.tb_Enter_Price.ShadowDecoration.Parent = this.tb_Enter_Price;
-            this.tb_Enter_Price.Size = new System.Drawing.Size(405, 41);
+            this.tb_Enter_Price.Size = new System.Drawing.Size(483, 41);
             this.tb_Enter_Price.TabIndex = 40;
             this.tb_Enter_Price.TextChanged += new System.EventHandler(this.Tb_Enter_Price_TextChanged);
             // 
@@ -1418,7 +1402,7 @@ namespace E_MarketWF
             this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tahoma", 16.8F);
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(693, 453);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(715, 190);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(358, 37);
             this.guna2HtmlLabel2.TabIndex = 53;
@@ -1430,90 +1414,12 @@ namespace E_MarketWF
             this.lbl_Enter_Price.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Enter_Price.Font = new System.Drawing.Font("Tahoma", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Enter_Price.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Enter_Price.Location = new System.Drawing.Point(984, 450);
+            this.lbl_Enter_Price.Location = new System.Drawing.Point(1006, 187);
             this.lbl_Enter_Price.Name = "lbl_Enter_Price";
             this.lbl_Enter_Price.Size = new System.Drawing.Size(181, 40);
             this.lbl_Enter_Price.TabIndex = 54;
             this.lbl_Enter_Price.Text = "0,00 AZN";
             this.lbl_Enter_Price.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // btn_1azn
-            // 
-            this.btn_1azn.Animated = true;
-            this.btn_1azn.BackColor = System.Drawing.Color.Transparent;
-            this.btn_1azn.BackgroundImage = global::E_MarketWF.Properties.Resources._1azn;
-            this.btn_1azn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_1azn.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_1azn.CheckedState.Parent = this.btn_1azn;
-            this.btn_1azn.CustomImages.Parent = this.btn_1azn;
-            this.btn_1azn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_1azn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_1azn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_1azn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_1azn.DisabledState.Parent = this.btn_1azn;
-            this.btn_1azn.FillColor = System.Drawing.Color.Transparent;
-            this.btn_1azn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_1azn.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_1azn.HoverState.Parent = this.btn_1azn;
-            this.btn_1azn.Location = new System.Drawing.Point(683, 315);
-            this.btn_1azn.Name = "btn_1azn";
-            this.btn_1azn.ShadowDecoration.Parent = this.btn_1azn;
-            this.btn_1azn.Size = new System.Drawing.Size(138, 82);
-            this.btn_1azn.TabIndex = 58;
-            this.btn_1azn.Visible = false;
-            this.btn_1azn.Click += new System.EventHandler(this.Btn_Money_Click);
-            // 
-            // btn_5azn
-            // 
-            this.btn_5azn.Animated = true;
-            this.btn_5azn.BackColor = System.Drawing.Color.Transparent;
-            this.btn_5azn.BackgroundImage = global::E_MarketWF.Properties.Resources._5azn;
-            this.btn_5azn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_5azn.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_5azn.CheckedState.Parent = this.btn_5azn;
-            this.btn_5azn.CustomImages.Parent = this.btn_5azn;
-            this.btn_5azn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_5azn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_5azn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_5azn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_5azn.DisabledState.Parent = this.btn_5azn;
-            this.btn_5azn.FillColor = System.Drawing.Color.Transparent;
-            this.btn_5azn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_5azn.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_5azn.HoverState.Parent = this.btn_5azn;
-            this.btn_5azn.Location = new System.Drawing.Point(847, 315);
-            this.btn_5azn.Name = "btn_5azn";
-            this.btn_5azn.ShadowDecoration.Parent = this.btn_5azn;
-            this.btn_5azn.Size = new System.Drawing.Size(158, 82);
-            this.btn_5azn.TabIndex = 59;
-            this.btn_5azn.Visible = false;
-            this.btn_5azn.Click += new System.EventHandler(this.Btn_Money_Click);
-            // 
-            // btn_10azn
-            // 
-            this.btn_10azn.Animated = true;
-            this.btn_10azn.BackColor = System.Drawing.Color.Transparent;
-            this.btn_10azn.BackgroundImage = global::E_MarketWF.Properties.Resources._10azn;
-            this.btn_10azn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_10azn.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_10azn.CheckedState.Parent = this.btn_10azn;
-            this.btn_10azn.CustomImages.Parent = this.btn_10azn;
-            this.btn_10azn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_10azn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_10azn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_10azn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_10azn.DisabledState.Parent = this.btn_10azn;
-            this.btn_10azn.FillColor = System.Drawing.Color.Transparent;
-            this.btn_10azn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_10azn.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_10azn.HoverState.Parent = this.btn_10azn;
-            this.btn_10azn.Location = new System.Drawing.Point(1023, 315);
-            this.btn_10azn.Name = "btn_10azn";
-            this.btn_10azn.ShadowDecoration.Parent = this.btn_10azn;
-            this.btn_10azn.Size = new System.Drawing.Size(158, 82);
-            this.btn_10azn.TabIndex = 60;
-            this.btn_10azn.Visible = false;
-            this.btn_10azn.Click += new System.EventHandler(this.Btn_Money_Click);
             // 
             // lbl_Residue_Price
             // 
@@ -1521,7 +1427,7 @@ namespace E_MarketWF
             this.lbl_Residue_Price.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Residue_Price.Font = new System.Drawing.Font("Tahoma", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Residue_Price.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Residue_Price.Location = new System.Drawing.Point(791, 496);
+            this.lbl_Residue_Price.Location = new System.Drawing.Point(813, 233);
             this.lbl_Residue_Price.Name = "lbl_Residue_Price";
             this.lbl_Residue_Price.Size = new System.Drawing.Size(181, 40);
             this.lbl_Residue_Price.TabIndex = 62;
@@ -1533,7 +1439,7 @@ namespace E_MarketWF
             this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Tahoma", 16.8F);
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(693, 499);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(715, 236);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(358, 37);
             this.guna2HtmlLabel3.TabIndex = 61;
@@ -1545,7 +1451,7 @@ namespace E_MarketWF
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(961, 572);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(715, 353);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(252, 44);
             this.guna2HtmlLabel1.TabIndex = 65;
@@ -1553,11 +1459,11 @@ namespace E_MarketWF
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(961, 612);
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(715, 403);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(237, 180);
+            this.richTextBox1.Size = new System.Drawing.Size(472, 331);
             this.richTextBox1.TabIndex = 66;
             this.richTextBox1.Text = "";
             // 
@@ -1575,91 +1481,13 @@ namespace E_MarketWF
             this.btn_Calculate.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Calculate.ForeColor = System.Drawing.Color.Green;
             this.btn_Calculate.HoverState.Parent = this.btn_Calculate;
-            this.btn_Calculate.Location = new System.Drawing.Point(12, 675);
+            this.btn_Calculate.Location = new System.Drawing.Point(12, 706);
             this.btn_Calculate.Name = "btn_Calculate";
             this.btn_Calculate.ShadowDecoration.Parent = this.btn_Calculate;
-            this.btn_Calculate.Size = new System.Drawing.Size(295, 116);
+            this.btn_Calculate.Size = new System.Drawing.Size(295, 80);
             this.btn_Calculate.TabIndex = 67;
             this.btn_Calculate.Text = "Hesabla";
             this.btn_Calculate.Click += new System.EventHandler(this.Btn_Calculate_Click);
-            // 
-            // btn_10q
-            // 
-            this.btn_10q.Animated = true;
-            this.btn_10q.BackColor = System.Drawing.Color.Transparent;
-            this.btn_10q.BackgroundImage = global::E_MarketWF.Properties.Resources._10q__2_;
-            this.btn_10q.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_10q.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_10q.CheckedState.Parent = this.btn_10q;
-            this.btn_10q.CustomImages.Parent = this.btn_10q;
-            this.btn_10q.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_10q.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_10q.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_10q.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_10q.DisabledState.Parent = this.btn_10q;
-            this.btn_10q.FillColor = System.Drawing.Color.Transparent;
-            this.btn_10q.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_10q.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_10q.HoverState.Parent = this.btn_10q;
-            this.btn_10q.Location = new System.Drawing.Point(715, 186);
-            this.btn_10q.Name = "btn_10q";
-            this.btn_10q.ShadowDecoration.Parent = this.btn_10q;
-            this.btn_10q.Size = new System.Drawing.Size(106, 98);
-            this.btn_10q.TabIndex = 68;
-            this.btn_10q.Visible = false;
-            this.btn_10q.Click += new System.EventHandler(this.Btn_Money_Click);
-            // 
-            // btn_20q
-            // 
-            this.btn_20q.Animated = true;
-            this.btn_20q.BackColor = System.Drawing.Color.Transparent;
-            this.btn_20q.BackgroundImage = global::E_MarketWF.Properties.Resources.download__2_;
-            this.btn_20q.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_20q.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_20q.CheckedState.Parent = this.btn_20q;
-            this.btn_20q.CustomImages.Parent = this.btn_20q;
-            this.btn_20q.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_20q.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_20q.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_20q.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_20q.DisabledState.Parent = this.btn_20q;
-            this.btn_20q.FillColor = System.Drawing.Color.Transparent;
-            this.btn_20q.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_20q.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_20q.HoverState.Parent = this.btn_20q;
-            this.btn_20q.Location = new System.Drawing.Point(877, 186);
-            this.btn_20q.Name = "btn_20q";
-            this.btn_20q.ShadowDecoration.Parent = this.btn_20q;
-            this.btn_20q.Size = new System.Drawing.Size(106, 98);
-            this.btn_20q.TabIndex = 69;
-            this.btn_20q.Visible = false;
-            this.btn_20q.Click += new System.EventHandler(this.Btn_Money_Click);
-            // 
-            // btn_50q
-            // 
-            this.btn_50q.Animated = true;
-            this.btn_50q.BackColor = System.Drawing.Color.Transparent;
-            this.btn_50q.BackgroundImage = global::E_MarketWF.Properties.Resources._50q;
-            this.btn_50q.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_50q.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_50q.CheckedState.Parent = this.btn_50q;
-            this.btn_50q.CustomImages.Parent = this.btn_50q;
-            this.btn_50q.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_50q.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_50q.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_50q.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_50q.DisabledState.Parent = this.btn_50q;
-            this.btn_50q.FillColor = System.Drawing.Color.Transparent;
-            this.btn_50q.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_50q.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_50q.HoverState.Parent = this.btn_50q;
-            this.btn_50q.Location = new System.Drawing.Point(1046, 186);
-            this.btn_50q.Name = "btn_50q";
-            this.btn_50q.ShadowDecoration.Parent = this.btn_50q;
-            this.btn_50q.Size = new System.Drawing.Size(106, 98);
-            this.btn_50q.TabIndex = 70;
-            this.btn_50q.Visible = false;
-            this.btn_50q.Click += new System.EventHandler(this.Btn_Money_Click);
             // 
             // btn_End
             // 
@@ -1676,117 +1504,36 @@ namespace E_MarketWF
             this.btn_End.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_End.ForeColor = System.Drawing.Color.Green;
             this.btn_End.HoverState.Parent = this.btn_End;
-            this.btn_End.Location = new System.Drawing.Point(693, 572);
+            this.btn_End.Location = new System.Drawing.Point(950, 279);
             this.btn_End.Name = "btn_End";
             this.btn_End.ShadowDecoration.Parent = this.btn_End;
-            this.btn_End.Size = new System.Drawing.Size(233, 137);
+            this.btn_End.Size = new System.Drawing.Size(248, 54);
             this.btn_End.TabIndex = 71;
             this.btn_End.Text = "Alisverisi bitir";
             this.btn_End.Click += new System.EventHandler(this.Btn_End_Click);
             // 
-            // pb_20q
+            // btn_retry
             // 
-            this.pb_20q.BackColor = System.Drawing.Color.Transparent;
-            this.pb_20q.BackgroundImage = global::E_MarketWF.Properties.Resources.download__2_;
-            this.pb_20q.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_20q.FillColor = System.Drawing.Color.Transparent;
-            this.pb_20q.ImageRotate = 0F;
-            this.pb_20q.Location = new System.Drawing.Point(877, 186);
-            this.pb_20q.Name = "pb_20q";
-            this.pb_20q.ShadowDecoration.Parent = this.pb_20q;
-            this.pb_20q.Size = new System.Drawing.Size(106, 98);
-            this.pb_20q.TabIndex = 72;
-            this.pb_20q.TabStop = false;
-            this.pb_20q.UseTransparentBackground = true;
-            // 
-            // pb_50q
-            // 
-            this.pb_50q.BackColor = System.Drawing.Color.Transparent;
-            this.pb_50q.BackgroundImage = global::E_MarketWF.Properties.Resources._50q;
-            this.pb_50q.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_50q.FillColor = System.Drawing.Color.Transparent;
-            this.pb_50q.ImageRotate = 0F;
-            this.pb_50q.Location = new System.Drawing.Point(1046, 186);
-            this.pb_50q.Name = "pb_50q";
-            this.pb_50q.ShadowDecoration.Parent = this.pb_50q;
-            this.pb_50q.Size = new System.Drawing.Size(106, 98);
-            this.pb_50q.TabIndex = 73;
-            this.pb_50q.TabStop = false;
-            this.pb_50q.UseTransparentBackground = true;
-            // 
-            // image_1azn
-            // 
-            this.image_1azn.AutoSize = false;
-            this.image_1azn.BackColor = System.Drawing.Color.Transparent;
-            this.image_1azn.BackgroundImage = global::E_MarketWF.Properties.Resources._1azn;
-            this.image_1azn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.image_1azn.Location = new System.Drawing.Point(683, 315);
-            this.image_1azn.Name = "image_1azn";
-            this.image_1azn.Size = new System.Drawing.Size(158, 82);
-            this.image_1azn.TabIndex = 77;
-            this.image_1azn.Text = null;
-            // 
-            // pb_10q
-            // 
-            this.pb_10q.BackColor = System.Drawing.Color.Transparent;
-            this.pb_10q.BackgroundImage = global::E_MarketWF.Properties.Resources._10q__2_;
-            this.pb_10q.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_10q.FillColor = System.Drawing.Color.Transparent;
-            this.pb_10q.ImageRotate = 0F;
-            this.pb_10q.Location = new System.Drawing.Point(715, 186);
-            this.pb_10q.Name = "pb_10q";
-            this.pb_10q.ShadowDecoration.Parent = this.pb_10q;
-            this.pb_10q.Size = new System.Drawing.Size(106, 98);
-            this.pb_10q.TabIndex = 5;
-            this.pb_10q.TabStop = false;
-            this.pb_10q.UseTransparentBackground = true;
-            // 
-            // image_5azn
-            // 
-            this.image_5azn.AutoSize = false;
-            this.image_5azn.BackColor = System.Drawing.Color.Transparent;
-            this.image_5azn.BackgroundImage = global::E_MarketWF.Properties.Resources._5azn;
-            this.image_5azn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.image_5azn.Location = new System.Drawing.Point(847, 315);
-            this.image_5azn.Name = "image_5azn";
-            this.image_5azn.Size = new System.Drawing.Size(158, 82);
-            this.image_5azn.TabIndex = 78;
-            this.image_5azn.Text = null;
-            // 
-            // image_10azn
-            // 
-            this.image_10azn.AutoSize = false;
-            this.image_10azn.BackColor = System.Drawing.Color.Transparent;
-            this.image_10azn.BackgroundImage = global::E_MarketWF.Properties.Resources._10azn;
-            this.image_10azn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.image_10azn.Location = new System.Drawing.Point(1023, 315);
-            this.image_10azn.Name = "image_10azn";
-            this.image_10azn.Size = new System.Drawing.Size(158, 82);
-            this.image_10azn.TabIndex = 79;
-            this.image_10azn.Text = null;
-            // 
-            // btn_Save
-            // 
-            this.btn_Save.BorderRadius = 15;
-            this.btn_Save.CheckedState.Parent = this.btn_Save;
-            this.btn_Save.CustomImages.Parent = this.btn_Save;
-            this.btn_Save.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Save.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Save.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_Save.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Save.DisabledState.Parent = this.btn_Save;
-            this.btn_Save.Enabled = false;
-            this.btn_Save.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(199)))), ((int)(((byte)(230)))));
-            this.btn_Save.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Save.ForeColor = System.Drawing.Color.Green;
-            this.btn_Save.HoverState.Parent = this.btn_Save;
-            this.btn_Save.Location = new System.Drawing.Point(693, 716);
-            this.btn_Save.Name = "btn_Save";
-            this.btn_Save.ShadowDecoration.Parent = this.btn_Save;
-            this.btn_Save.Size = new System.Drawing.Size(233, 76);
-            this.btn_Save.TabIndex = 80;
-            this.btn_Save.Text = "Save PDF";
-            this.btn_Save.Click += new System.EventHandler(this.Btn_Save_Click);
+            this.btn_retry.BorderRadius = 15;
+            this.btn_retry.CheckedState.Parent = this.btn_retry;
+            this.btn_retry.CustomImages.Parent = this.btn_retry;
+            this.btn_retry.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_retry.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_retry.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_retry.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_retry.DisabledState.Parent = this.btn_retry;
+            this.btn_retry.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(199)))), ((int)(((byte)(230)))));
+            this.btn_retry.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_retry.ForeColor = System.Drawing.Color.Green;
+            this.btn_retry.HoverState.Parent = this.btn_retry;
+            this.btn_retry.Location = new System.Drawing.Point(939, 740);
+            this.btn_retry.Name = "btn_retry";
+            this.btn_retry.ShadowDecoration.Parent = this.btn_retry;
+            this.btn_retry.Size = new System.Drawing.Size(248, 46);
+            this.btn_retry.TabIndex = 72;
+            this.btn_retry.Text = "Yeniden alisveris et";
+            this.btn_retry.Visible = false;
+            this.btn_retry.Click += new System.EventHandler(this.Btn_Retry_Click);
             // 
             // Form1
             // 
@@ -1794,29 +1541,19 @@ namespace E_MarketWF
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(213)))), ((int)(((byte)(212)))));
             this.ClientSize = new System.Drawing.Size(1240, 823);
-            this.Controls.Add(this.btn_Save);
-            this.Controls.Add(this.image_10azn);
-            this.Controls.Add(this.image_5azn);
-            this.Controls.Add(this.image_1azn);
-            this.Controls.Add(this.pb_50q);
-            this.Controls.Add(this.pb_20q);
+            this.Controls.Add(this.btn_retry);
             this.Controls.Add(this.btn_End);
-            this.Controls.Add(this.btn_50q);
-            this.Controls.Add(this.btn_20q);
             this.Controls.Add(this.btn_Calculate);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.lbl_Residue_Price);
             this.Controls.Add(this.guna2HtmlLabel3);
-            this.Controls.Add(this.btn_10azn);
-            this.Controls.Add(this.btn_5azn);
-            this.Controls.Add(this.btn_1azn);
             this.Controls.Add(this.lbl_Enter_Price);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.tb_Enter_Price);
             this.Controls.Add(this.lbl_Enter_Price_);
             this.Controls.Add(this.lbl_All_Price);
-            this.Controls.Add(this.guna2HtmlLabel13);
+            this.Controls.Add(this.lbl_all_PriceTitle);
             this.Controls.Add(this.cb_Smoke);
             this.Controls.Add(this.nud_Marlboro);
             this.Controls.Add(this.guna2ShadowPanel9);
@@ -1854,8 +1591,6 @@ namespace E_MarketWF
             this.Controls.Add(this.nud_Cola);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Controls.Add(this.pb_10q);
-            this.Controls.Add(this.btn_10q);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(1240, 766);
             this.Name = "Form1";
@@ -1896,9 +1631,6 @@ namespace E_MarketWF
             ((System.ComponentModel.ISupportInitialize)(this.nud_Popkek)).EndInit();
             this.guna2ShadowPanel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_20q)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_50q)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_10q)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1969,7 +1701,7 @@ namespace E_MarketWF
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_Fanta_Price;
         private Guna.UI2.WinForms.Guna2TileButton btn_Minimize;
         private Guna.UI2.WinForms.Guna2TileButton btn_Close;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lbl_all_PriceTitle;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_All_Price;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_Enter_Price_;
@@ -1988,25 +1720,13 @@ namespace E_MarketWF
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_SCount_Icetea;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_SCount_Fanta;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_SCount_Bread;
-        private Guna.UI2.WinForms.Guna2Button btn_1azn;
-        private Guna.UI2.WinForms.Guna2Button btn_10azn;
-        private Guna.UI2.WinForms.Guna2Button btn_5azn;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbl_Residue_Price;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button btn_Calculate;
-        private Guna.UI2.WinForms.Guna2Button btn_10q;
-        private Guna.UI2.WinForms.Guna2Button btn_50q;
-        private Guna.UI2.WinForms.Guna2Button btn_20q;
         private Guna.UI2.WinForms.Guna2Button btn_End;
-        private Guna.UI2.WinForms.Guna2PictureBox pb_20q;
-        private Guna.UI2.WinForms.Guna2PictureBox pb_50q;
-        private Guna.UI2.WinForms.Guna2HtmlLabel image_1azn;
-        private Guna.UI2.WinForms.Guna2HtmlLabel image_10azn;
-        private Guna.UI2.WinForms.Guna2HtmlLabel image_5azn;
-        private Guna.UI2.WinForms.Guna2PictureBox pb_10q;
-        private Guna.UI2.WinForms.Guna2Button btn_Save;
+        private Guna.UI2.WinForms.Guna2Button btn_retry;
     }
 }
 

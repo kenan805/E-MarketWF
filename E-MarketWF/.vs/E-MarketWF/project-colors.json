@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9d80ddb3-1e31-449c-a2ed-ec6355050bde": {
+      "ProjectGuid": "9d80ddb3-1e31-449c-a2ed-ec6355050bde",
+      "DisplayName": "E-MarketWF",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
